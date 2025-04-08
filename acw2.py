@@ -1,7 +1,7 @@
 import argparse
 import cv2  
 import os
-
+#hello world
 def process_image(image_path, output_path):
     # Load image
     image = cv2.imread(image_path)
