@@ -1,0 +1,14 @@
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: ../yolo  # dataset root dir
+train: train/images  # train images (relative to 'path') 
+val: val/images  # val images (relative to 'path') 
+# test: test # test images (optional)
+
+# Classes
+names:
+  0: Roundabout
+  1: Traffic lights
+  2: Roadworks
+  3: No entry
+  4: 30MPH
+  5: National speed limit
