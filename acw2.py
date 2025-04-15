@@ -5,7 +5,7 @@ from ultralytics import YOLO
 from acw2_utils import CLASS_MAPPING, normalize_bbox
 
 
-
+# can remove this cause its in the acw2_utill.py
 # # Dictionary mapping class index to (sign_number, sign_name)
 # CLASS_MAPPING = {
 #     0: (1, "Roundabout"),
