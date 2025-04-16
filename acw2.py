@@ -54,11 +54,11 @@ def process_image(image_path, output_path, model):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--image', type=str, required=True, help="Input image path")
-    parser.add_argument('--output', type=str, default="output.txt", help="Output text file")
+    parser.add_argument('--output', type=str, default="outfile.txt", help="Output text file")
     parser.add_argument('--interactive', action='store_true', help="Enable optional visualization mode")
     args = parser.parse_args()
 
-    model = YOLO("runs/detect/train72/weights/best.pt")
+    model = YOLO("runs/detect/train30/weights/best.pt")
 
     process_image(args.image, args.output, model)
 
